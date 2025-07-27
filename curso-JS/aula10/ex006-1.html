@@ -25,10 +25,15 @@
     </div>
     
     <script>
-        /*Explicação do que são os eventos em JS! Eventos em js é tudo oq pode,
-        seja clique, passar o mouse por cima, toque touch e etc.*/
+       /*Forma de disparar eventos no javascript usando listeners*/
+        
+        
         
         var area = window.document.querySelector("div#area"); /*<-- Escopo global*/
+        area.addEventListener("click" clique)
+        area.addEventListener("mouseenter" entrou)
+        area.addEventListener("mousedown" sair)
+        
         function clique(){
             area.innerText = "clicou!"
             area.style.background = "red"
