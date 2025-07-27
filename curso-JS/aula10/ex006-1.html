@@ -25,12 +25,15 @@
     </div>
     
     <script>
-        /*Forma de disparar eventos no javascript usando listeners*/
+        /*Forma de disparar eventos no javascript usando listeners.
+        Preste bastante atenção!*/
         
         
         
         var area = window.document.querySelector("div#area"); /*<-- Escopo global*/
-        area.addEventListener("click", clique)
+        area.addEventListener("click", clique) /*primeiro vem o nome do evento e
+        depois vem o nome que você deu a ele! Nesse exemplo, Você nomeou o nome
+        do evento de CLIQUE*/
         area.addEventListener("mouseenter", entrou)
         area.addEventListener("mousedown", sair)
         
