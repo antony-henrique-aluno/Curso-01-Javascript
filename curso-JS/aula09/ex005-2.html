@@ -34,9 +34,12 @@
         var div = window.document.getElementById('box')
         box.style.background = 'rgb(119,128,0)' /*<-- Forma de acessar o style e
         modificar os elementos com js. Obs! Preste bem atenção*/
-        box.innerText = 'Estou aguardando......' /*<-- 1 - forma de modificar oq
-        tem dentro do elemento div em js. Isso tbm pode ser usado em outros
+        /*box.innerText = 'Estou aguardando......'*/ /*<-- 1 - forma de modificar oq
+        tem dentro do elemento div usando js. Isso tbm pode ser usado em outros
         elementos!*/
+        
+        window.document.getElementById('box').innerText = 'Estou aguardando...'
+        /*2 - Forma de modificar oq tem dentro do elemento div usando o JS*/
     </script>
 </body>
 
