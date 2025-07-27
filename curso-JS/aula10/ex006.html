@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div id="area" onclick="clique()" onmouseenter="passou">
+    <div id="area" onclick="clique()" onmouseenter="entrou()">
         Interaja...
     </div>
     
@@ -28,9 +28,13 @@
         /*Explicação do que são os eventos em JS! Eventos em js é tudo oq pode,
         seja clique, passar o mouse por cima, toque touch e etc.*/
         
+        var area = window.document.querySelector("div#area");
         function clique(){
-            var area = window.document.querySelector("div#area");
             area.innerText = "clicou!"
+        }
+        
+        function entrou(){
+            area.innerText = "entrei!"
         }
     </script>
 </body>
