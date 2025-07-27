@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos DOM</title>
+    
+    <style>
+        #area {
+            background: linear-gradient(to left, rgb(241, 255, 59), rgb(130, 255, 115));
+            color: black;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="area">
+        Interaja...
+    </div>
+    
+    <script>
+        /*Explicação do que são os eventos em JS! Eventos em js é tudo oq pode,
+        seja clique, passar o mouse por cima, toque touch e etc.*/
+        
+        var area = window.document.querySelector("div#area"); /*<-- Escopo global*/
+        function clique(){
+            area.innerText = "clicou!"
+            area.style.background = "red"
+        }
+        
+        function entrou(){
+            area.innerText = "entrei!"
+        }
+        
+        function sair(){
+            area.innerText = "Saiu!"
+        }
+    </script>
+</body>
+
+</html>
