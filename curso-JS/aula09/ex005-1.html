@@ -30,9 +30,9 @@
     </div>
     
     <script>
-        //1 - selecionar por MARCA ou TAG NAME, use getElementsTagByName
-        var p1 = window.document.getElementsTagByName('p')[0]
-        window.document.write(p1.innerText)
+        //1 - selecionar por MARCA ou TAG NAME, use getElementsByTagName
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write("Finalmente acertei " + p1.innerText)
         //Para mostrar o elemento selecionado, Use a variavel dentro de um
         //um paretenses! EX: window.document.write(div.innerText)
         //não se esqueça de usar o innerText
