@@ -41,6 +41,11 @@
         um paretenses! EX: window.document.write(div.innerText)
         não se esqueça de usar o innerText*/
         
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write(p1.innerHTML) /*<-- O innerHTML pega todo o html,
+        ate msm as TAGS filhas de seus elementos! 
+        EX: <p>Aprendendo a usar <strong>Dom</strong> em javascript</p>*/
+        
         corpo.style.background = 'rgb(46,13,50)'
         p1.style.color = 'blue' 
         /*Forma de modificar o style dos elementos
