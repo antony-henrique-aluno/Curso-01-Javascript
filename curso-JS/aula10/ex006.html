@@ -20,7 +20,8 @@
 </head>
 
 <body>
-    <div id="area" onclick="clique()" onmouseenter="entrou()">
+    <div id="area" onclick="clique()" onmouseenter="entrou()"
+    onmousedown="sair()">
         Interaja...
     </div>
     
@@ -35,6 +36,10 @@
         
         function entrou(){
             area.innerText = "entrei!"
+        }
+        
+        function sair(){
+            area.innerText = "Saiu!"
         }
     </script>
 </body>
