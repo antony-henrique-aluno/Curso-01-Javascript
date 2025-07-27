@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM</title>
+    <style>
+        body {
+            background: rgb(130, 200, 255);
+            font-size: 1.8em;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <H1>
+        entendendo o DOM
+    </H1>
+    <p>
+        Aqui vem o resultado
+    </p>
+    <p>
+        Aprendendo a usar <strong>Dom</strong> em javascript
+    </p>
+    <div id="box">
+        Clique em mim
+    </div>
+    
+    <script>
+        var div = window.document.getElementById('box')
+        window.document.write(div.innerText)
+    </script>
+</body>
+
+</html>
