@@ -26,7 +26,7 @@
         Aprendendo a usar <strong>Dom</strong> em javascript
     </p>
     <div id="box">
-        Clique em mim
+        <strong>Clique em mim</strong>
     </div>
     
     <script>
@@ -38,7 +38,10 @@
         tem dentro do elemento div usando js. Isso tbm pode ser usado em outros
         elementos!*/
         
-        window.document.getElementById('box').innerText = 'Estou aguardando...'
+        /*window.document.getElementById('box').innerHTML = 'Estou aguardando...'*/
+        document.getElementById("box").innerText = "Certei?"
+        document.write(div.innerText);
+        document.write(div.innerHTML);
         /*2 - Forma de modificar oq tem dentro do elemento div usando o JS*/
     </script>
 </body>
