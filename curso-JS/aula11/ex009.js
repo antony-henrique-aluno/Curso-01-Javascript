@@ -4,3 +4,4 @@ if (pais == "brasil"){ //Se o pais for diferente do brasil, ativa o else! Você 
     console.log('Você é brasileiro');
 }else 
     console.log(`Você é estrangeiro`);
+    
