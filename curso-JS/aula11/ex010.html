@@ -20,6 +20,9 @@
             var vel = Number(velocidade.value)
             var res = document.getElementById("resultado");
             res.innerHTML = `Sua velocidade atual é de ${vel}km/H`
+            if (vel > 60) {
+                res.innerHTML += `<p>Sua velocidade está acima do normal! Você sera multado</p>`
+            }
         }   
     </script>
 </body>
