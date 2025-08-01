@@ -1,0 +1,1 @@
+console.log("O document.write não funciona no console! No lugar dele, use o console.log")
