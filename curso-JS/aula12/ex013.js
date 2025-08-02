@@ -11,11 +11,11 @@
 var agora = new Date()
 var diaSemana = agora.getDay()
 
-/*0 Segunda feira 
-1 Terça feira 
-2 Quarta feira 
-3 Quinta feira 
-4 Sexta feira 
-5 Sabado 
-6 Domingo */
+/*0 Domingo
+1 Segunda 
+2 Terça
+3 Quarta
+4 Quinta
+5 Sexta
+6 Sabado */
 
