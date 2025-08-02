@@ -17,7 +17,8 @@ var diaSemana = agora.getDay()
     3 Quarta
     4 Quinta
     5 Sexta
-    6 Sabado */
+    6 Sabado 
+*/
 
 switch (diaSemana) {
     case 0:
