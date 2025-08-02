@@ -6,3 +6,7 @@
 // acabei de falar. Ela não serve muito para intervalo 
 // de valores como a gente exemplificou ali: o bom dia, 
 // boa tarde e boa noite. Essa  
+
+
+var agora = new Date()
+var diaSemana = agora.getDay()
